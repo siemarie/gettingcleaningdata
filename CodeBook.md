@@ -28,7 +28,7 @@ The R script found in this repository (run_analysis.R) runs the following method
 
 "SubjectId" - An indentifier ranging from 1 - 30 representing each unique participant in the study.
 
-"ActivityId - The activity that the participant was engaged in while measurements were taken.
+"ActivityId" - The activity that the participant was engaged in while measurements were taken.
 
 The following variables represent the means of measurements for each participant-activity combination. The original data was collected using the built-in accelerometer and gyroscope of the smartphones used in the experiments. Many of these measurements (labeled -X, -Y or -Z) were collected on three axises. For additional information about the collection of the raw data, see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
