@@ -1,5 +1,5 @@
-GETTING AND CLEANING DATA - CodeBook.md
-=======================================
+CodeBook.md
+===========
 
 **Data Set**
 
@@ -26,8 +26,77 @@ The R script found in this repository (run_analysis.R) runs the following method
 
 **Variables**
 
+"SubjectId" - An indentifier ranging from 1 - 30 representing each unique participant in the study.
+"ActivityId - The activity that the participant was engaged in while measurements were taken.
 
+The following variables represent the means of measurements for each participant-activity combination. The original data was collected using the built-in accelerometer and gyroscope of the smartphones used in the experiments. Many of these measurements (labeled -X, -Y or -Z) were collected on three axises. For additional information about the collection of the raw data, see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
+ "TotalBodyAcceleration-Mean()-X"                           
+ "TotalBodyAcceleration-Mean()-Y"                           
+ "TotalBodyAcceleration-Mean()-Z"                           
+ "TotalBodyAcceleration-StandardDeviation()-X"              
+ "TotalBodyAcceleration-StandardDeviation()-Y"              
+ "TotalBodyAcceleration-StandardDeviation()-Z"              
+ "TotalGravityAcceleration-Mean()-X"                            
+ "TotalGravityAcceleration-Mean()-Y"                            
+ "TotalGravityAcceleration-Mean()-Z"                            
+ "TotalGravityAcceleration-StandardDeviation()-X"               
+ "TotalGravityAcceleration-StandardDeviation()-Y"               
+ "TotalGravityAcceleration-StandardDeviation()-Z"               
+ "TotalBodyAccelerationJerk-Mean()-X"                       
+ "TotalBodyAccelerationJerk-Mean()-Y"                       
+ "TotalBodyAccelerationJerk-Mean()-Z"                       
+ "TotalBodyAccelerationJerk-StandardDeviation()-X"          
+ "TotalBodyAccelerationJerk-StandardDeviation()-Y"          
+ "TotalBodyAccelerationJerk-StandardDeviation()-Z"          
+ "TotalBodyGyroscope-Mean()-X"                              
+ "TotalBodyGyroscope-Mean()-Y"                              
+ "TotalBodyGyroscope-Mean()-Z"                              
+ "TotalBodyGyroscope-StandardDeviation()-X"                 
+ "TotalBodyGyroscope-StandardDeviation()-Y"                 
+ "TotalBodyGyroscope-StandardDeviation()-Z"                 
+ "TotalBodyGyroscopeJerk-Mean()-X"                          
+ "TotalBodyGyroscopeJerk-Mean()-Y"                          
+ "TotalBodyGyroscopeJerk-Mean()-Z"                          
+ "TotalBodyGyroscopeJerk-StandardDeviation()-X"             
+ "TotalBodyGyroscopeJerk-StandardDeviation()-Y"             
+ "TotalBodyGyroscopeJerk-StandardDeviation()-Z"             
+ "TotalBodyAccelerationMagnitude-Mean()"                    
+ "TotalBodyAccelerationMagnitude-StandardDeviation()"       
+ "TotalGravityAccelerationMagnitude-Mean()"                     
+ "TotalGravityAccelerationMagnitude-StandardDeviation()"        
+ "TotalBodyAccelerationJerkMagnitude-Mean()"                
+ "TotalBodyAccelerationJerkMagnitude-StandardDeviation()"   
+ "TotalBodyGyroscopeMagnitude-Mean()"                       
+ "TotalBodyGyroscopeMagnitude-StandardDeviation()"          
+ "TotalBodyGyroscopeJerkMagnitude-Mean()"                   
+ "TotalBodyGyroscopeJerkMagnitude-StandardDeviation()"      
+ "FullBodyAcceleration-Mean()-X"                            
+ "FullBodyAcceleration-Mean()-Y"                            
+ "FullBodyAcceleration-Mean()-Z"                            
+ "FullBodyAcceleration-StandardDeviation()-X"               
+ "FullBodyAcceleration-StandardDeviation()-Y"               
+ "FullBodyAcceleration-StandardDeviation()-Z"               
+ "FullBodyAccelerationJerk-Mean()-X"                        
+ "FullBodyAccelerationJerk-Mean()-Y"                        
+ "FullBodyAccelerationJerk-Mean()-Z"                        
+ "FullBodyAccelerationJerk-StandardDeviation()-X"           
+ "FullBodyAccelerationJerk-StandardDeviation()-Y"           
+ "FullBodyAccelerationJerk-StandardDeviation()-Z"           
+ "FullBodyGyroscope-Mean()-X"                               
+ "FullBodyGyroscope-Mean()-Y"                               
+ "FullBodyGyroscope-Mean()-Z"                               
+ "FullBodyGyroscope-StandardDeviation()-X"                  
+ "FullBodyGyroscope-StandardDeviation()-Y"                  
+ "FullBodyGyroscope-StandardDeviation()-Z"                  
+ "FullBodyAccelerationMagnitude-Mean()"                     
+ "FullBodyAccelerationMagnitude-StandardDeviation()"        
+ "FullBodyBodyAccelerationJerkMagnitude-Mean()"             
+ "FullBodyBodyAccelerationJerkMagnitude-StandardDeviation()"
+ "FullBodyBodyGyroscopeMagnitude-Mean()"                    
+ "FullBodyBodyGyroscopeMagnitude-StandardDeviation()"       
+ "FullBodyBodyGyroscopeJerkMagnitude-Mean()"                
+ "FullBodyBodyGyroscopeJerkMagnitude-StandardDeviation()"   
 
 **Footnotes**
 
