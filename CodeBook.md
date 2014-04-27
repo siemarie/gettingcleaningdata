@@ -1,5 +1,5 @@
-GETTING AND CLEANING DATA - Peer Assessment 1
-=============================================
+GETTING AND CLEANING DATA - CodeBook.md
+=======================================
 
 **Data Set**
 
